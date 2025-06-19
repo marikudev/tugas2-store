@@ -44,7 +44,7 @@ function Products() {
                     children: "My Product"
                 }, void 0, false, {
                     fileName: "[project]/src/component/Products.tsx",
-                    lineNumber: 25,
+                    lineNumber: 32,
                     columnNumber: 9
                 }, this),
                 products.map((product)=>{
@@ -57,24 +57,24 @@ function Products() {
                             image: product.image
                         }, void 0, false, {
                             fileName: "[project]/src/component/Products.tsx",
-                            lineNumber: 29,
+                            lineNumber: 36,
                             columnNumber: 17
                         }, this)
                     }, product.id, false, {
                         fileName: "[project]/src/component/Products.tsx",
-                        lineNumber: 28,
+                        lineNumber: 35,
                         columnNumber: 15
                     }, this);
                 })
             ]
         }, void 0, true, {
             fileName: "[project]/src/component/Products.tsx",
-            lineNumber: 24,
+            lineNumber: 31,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/component/Products.tsx",
-        lineNumber: 23,
+        lineNumber: 30,
         columnNumber: 5
     }, this);
 }
@@ -91,7 +91,7 @@ function CardProduct(props) {
                 src: props.image
             }, void 0, false, {
                 fileName: "[project]/src/component/Products.tsx",
-                lineNumber: 47,
+                lineNumber: 61,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -104,12 +104,12 @@ function CardProduct(props) {
                             children: props.title
                         }, void 0, false, {
                             fileName: "[project]/src/component/Products.tsx",
-                            lineNumber: 58,
+                            lineNumber: 72,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/component/Products.tsx",
-                        lineNumber: 57,
+                        lineNumber: 71,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -117,7 +117,7 @@ function CardProduct(props) {
                         children: props.description
                     }, void 0, false, {
                         fileName: "[project]/src/component/Products.tsx",
-                        lineNumber: 63,
+                        lineNumber: 77,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -131,25 +131,25 @@ function CardProduct(props) {
                                 children: "→"
                             }, void 0, false, {
                                 fileName: "[project]/src/component/Products.tsx",
-                                lineNumber: 72,
+                                lineNumber: 86,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/component/Products.tsx",
-                        lineNumber: 67,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/component/Products.tsx",
-                lineNumber: 56,
+                lineNumber: 70,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/component/Products.tsx",
-        lineNumber: 46,
+        lineNumber: 60,
         columnNumber: 5
     }, this);
 }

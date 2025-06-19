@@ -3,10 +3,17 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
+interface Products {
+  id: number;
+  title: string;
+  price: number;
+  description: string;
+  image: string;
+};
 
 export default function Products() {
   const url = "https://fakestoreapi.com/products";
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState<Products[]>([]);
 
   const getDataProducts = async () => {
     const response = await fetch(url);
@@ -40,6 +47,13 @@ export default function Products() {
     </div>
   );
 }
+
+type CardProductProps = {
+  title: string;
+  price: number;
+  description: string;
+  image: string;
+};  
 
 function CardProduct(props: CardProductProps) {
   return (
